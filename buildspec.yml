@@ -22,6 +22,6 @@ phases:
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
 
-  artifacts:
-    files:
-      - taskdef.json
+artifacts:
+  files:
+    - taskdef.json
