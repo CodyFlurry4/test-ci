@@ -3,7 +3,7 @@ const app = express();
 const port = 80;
 
 app.get('/', (req, res) => {
-  res.send('This message should change automatically!');
+  res.send('T');
 });
 
 app.listen(port, () => {
